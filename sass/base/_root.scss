@@ -1,0 +1,28 @@
+:root {
+  --theme-color: #2196f3;
+  --text-primary: #212121;
+  --text-secondary: #757575;
+
+  --primary-font: 'Raleway';
+  --secondary-font: 'Roboto';
+}
+body {
+  font-family: var(--secondary-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}

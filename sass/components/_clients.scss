@@ -16,23 +16,48 @@
 }
 
 .clients-blok {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
+  @media screen and (min-width: 480px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
 }
 
 .clients-blok__liste {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  color: #afb1b8;
-  margin-right: 30px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 480px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 210px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    color: #afb1b8;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    color: #afb1b8;
+    margin-right: 30px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
   &:hover,
   &:focus {

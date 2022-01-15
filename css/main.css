@@ -334,27 +334,58 @@ span {
   margin-left: 30px;
 }
 
-.peculiarity-box__list {
-  width: 270px;
+@media screen and (min-width: 480px) {
+  .peculiarity-box__list {
+    width: 450px;
+  }
 }
 
-.peculiarity-box__fon {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #f5f4fa;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
+@media screen and (min-width: px) {
+  .peculiarity-box__list {
+    width: 270px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .peculiarity-box__fon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #f5f4fa;
+    width: 450px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .peculiarity-box__fon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #f5f4fa;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
 }
 
 .peculiarity-box__icon {
@@ -373,13 +404,26 @@ span {
   color: var(--text-primary);
 }
 
-.peculiarity-box__text {
-  margin: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--text-secondary);
+@media screen and (min-width: 480px) {
+  .peculiarity-box__text {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-secondary);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .peculiarity-box__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--text-secondary);
+  }
 }
 
 .classes-box {

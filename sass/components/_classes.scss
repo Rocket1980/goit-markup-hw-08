@@ -1,7 +1,21 @@
 .classes-box {
-  padding-top: 48px;
-  padding-bottom: 84px;
-}
+  
+
+  @media screen and(min-width: 480px) {
+    display: none;
+  }
+
+  @media screen and(min-width: 768px) {
+    display: none;
+  }
+
+  @media screen and(min-width: 1200px) {
+    display: block;
+    padding-top: 48px;
+    padding-bottom: 84px;
+  }
+       
+  }
 
 .galerie {
   display: flex;

@@ -1,6 +1,9 @@
 .container {
   @media screen and (min-width: 480px) {
-    width: auto;
+    width: 480px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   @media screen and (min-width: 768px) {
@@ -9,9 +12,18 @@
 
   @media screen and (min-width: 1200px) {
     width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    
+  }
+}
+
+.header {
+  @media screen and (min-width: 480px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 23px;
+
   }
 }
 
@@ -24,6 +36,7 @@
 
 .connection-container {
   margin-left: auto;
+  
 }
 
 .header-nav {
@@ -70,6 +83,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .contacts-nav__mailto {
@@ -127,6 +141,11 @@
   border: none;
   background-color: transparent;
 
+  @media screen and (min-width: 480px) {
+    display: flex;
+    
+  }
+
   @media screen and (min-width: 768px) {
     display: none;
   }
@@ -138,27 +157,42 @@
 
 .menu-button.is-open .icon-close {
   display: block;
+ 
 }
 
 .menu-button.is-open .icon-menu {
   display: none;
 }
 
+
+
 .menu-container {
-  // background-color: yellowgreen;
-  // padding: 40px;
-  text-align: center;
-  font-size: 20px;
+  @media screen and (min-width: 480px) {
+    
+     width: 100vw;
+     height: 100vh;
+     min-height: 581px;
+     background-color: #ffffff;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%) scale(1);
+     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     background: #ffffff;
+     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 1px 1px rgba(0, 0, 0, 0.6),
+     0px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 4px;
+     padding: 40px;
+     display: none;
+     z-index: 1;
 
-  &.is-open {
-    display: block;
+     &.is-open {
+       display: block;
+
+     }
   }
 
-  @media screen and (max-width: 767px) {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-  }
 }
+
+

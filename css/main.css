@@ -1703,6 +1703,18 @@ span {
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 480px) {
+  .button {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 .button__list {
   margin-left: 8px;
 }

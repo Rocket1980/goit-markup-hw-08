@@ -1,61 +1,16 @@
 .cap {
+  max-width: 1600px;
+  height: 600px;
+  padding: 200px 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-  url('../images/img-mob.jpg');
-  width: 480px;
-  height: 400px;
-  padding: 118px 0;
-
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/img-mob@2x');
-  }
-
-  @media screen and(min-width: 480px) {
-     width: 500px;
-     height: 420px;
-     padding: 121px 0;
-
-  }
-
- @media screen and(min-width: 768px) {
-   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-     url('../images/img-tab.jpg');
-   width: 768px;
-   height: 400px;
-   padding: 118px 0;
-
-   @media (min-device-pixel-ratio: 2),
-   (min-resolution: 192dpi),
-   (min-resolution: 2dppx) {
-     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-       url('../images/img-tab@2x');
-   }
- }
-
- @media screen and(min-width: 1200px) {
-    width: 1200px;
-    height: 600px;
-    padding: 200px 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #2f303a;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/Img.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/img@2x.jpg');
-    }
- }
- 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .cap-heading {
@@ -63,25 +18,12 @@
   margin-bottom: 30px;
 
   font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-
-  @media screen and(min-width: 480px) {
-    font-size: 26px;
-    line-height: 1.37;
-  }
-
-  @media screen and(min-width: 768px) {
-    font-size: 26px;
-    line-height: 1.37;
-  }
-
-  @media screen and(min-width: 1200px) {
-    font-size: 44px;
-    line-height: 1.37;
-  }
 }
 
 .cap-button {

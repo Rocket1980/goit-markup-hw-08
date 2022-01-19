@@ -9,8 +9,6 @@
   opacity: 1;
   transition: opasity;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  overflow-y: scroll;
 }
 
 .modal {
@@ -27,16 +25,6 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
-
-  // @media screen and (min-width: 480px) {
-  //   width: 450px;
-  //   height: 609px;
-
-  //   // position: absolute;
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-  // }
 }
 
 .backdrop.is-hidden .modal {

@@ -39,46 +39,10 @@
 
 .footer-box-siz {
   display: flex;
-
-  @media screen and (min-width: 480px) {
-    flex-direction: column;
-  }
-
-  @media screen and (min-width: 768px) {
-    flex-wrap: wrap;
-  }
-
-  @media screen and (min-width: 1200px) {
-  }
-}
-
-.adress-box {
-  display: flex;
-
-  @media screen and (min-width: 480px) {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 60px;
-  }
-
-  @media screen and (min-width: 768px) {
-    flex-wrap: wrap;
-  }
-
-  @media screen and (min-width: 1200px) {
-  }
 }
 
 .footer-link {
   margin-left: 70px;
-  display: flex;
-
-  @media screen and (min-width: 480px) {
-    margin: 0;
-    padding-bottom: 60px;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 .footer-link__heading {
@@ -130,14 +94,6 @@
 
 .mail-input {
   margin-left: 93px;
-  display: flex;
-
-  @media screen and (min-width: 480px) {
-    margin: 0;
-    flex-direction: column;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 .mail-input__heading {
@@ -161,11 +117,6 @@
   height: 86px;
 
   display: flex;
-
-  @media screen and (min-width: 480px) {
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 .mail-input__text {
@@ -180,10 +131,6 @@
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: #ffffff;
-
-  @media screen and (min-width: 480px) {
-    width: 450px;
-  }
 }
 
 .mail-input__button {
@@ -207,11 +154,6 @@
 
   color: #ffffff;
   cursor: pointer;
-
-  @media screen and (min-width: 480px) {
-    margin-left: 0;
-    margin-top: 20px;
-  }
 }
 
 .mail-input__icon {

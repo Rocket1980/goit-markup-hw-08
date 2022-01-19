@@ -1,21 +1,7 @@
 .classes-box {
-  
-
-  @media screen and(min-width: 480px) {
-    display: none;
-  }
-
-  @media screen and(min-width: 768px) {
-    display: none;
-  }
-
-  @media screen and(min-width: 1200px) {
-    display: block;
-    padding-top: 48px;
-    padding-bottom: 84px;
-  }
-       
-  }
+  padding-top: 48px;
+  padding-bottom: 84px;
+}
 
 .galerie {
   display: flex;
@@ -74,4 +60,3 @@
 
   color: #ffffff;
 }
-

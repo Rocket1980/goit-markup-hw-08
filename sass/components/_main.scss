@@ -3,65 +3,24 @@
   padding-bottom: 48px;
 }
 .peculiarity-box {
-  @media screen and (min-width: 480px) {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0;
-  }
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 .peculiarity-box + .peculiarity-text {
   margin-left: 30px;
 }
 .peculiarity-box__list {
-  @media screen and (min-width: 480px) {
-    width: 450px;
-  }
-
-   @media screen and (min-width: 768px) {
-     width: 354px;
-   }
-
-  @media screen and (min-width: 1200px) {
-    width: 270px;
-  }
+  width: 270px;
 }
 .peculiarity-box__fon {
-  @media screen and (min-width: 480px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f5f4fa;
-    width: 450px;
-    height: 120px;
-    margin-bottom: 30px;
-  }
-
-@media screen and (min-width: 768px) {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f5f4fa;
-  width: 354px;
+  width: 270px;
   height: 120px;
   margin-bottom: 30px;
-}
-
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f5f4fa;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-  }
 }
 .peculiarity-box__icon {
   width: 70px;
@@ -78,22 +37,11 @@
   color: var(--text-primary);
 }
 .peculiarity-box__text {
-  @media screen and (min-width: 480px) {
-    margin-bottom: 30px;
+  margin: 0;
 
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--text-secondary);
-  }
-  @media screen and (min-width: 1200px) {
-    margin: 0;
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--text-secondary);
-  }
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary);
 }

@@ -4,6 +4,10 @@
   margin: 0;
   margin-right: -30px;
   margin-bottom: -30px;
+
+  @media screen and (min-width: 480px) {
+    justify-content: center;
+  }
 }
 
 .projects__list {

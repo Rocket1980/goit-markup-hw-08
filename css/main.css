@@ -1687,6 +1687,13 @@ span {
   padding-bottom: 94px;
 }
 
+@media screen and (min-width: 480px) {
+  .main-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .button {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1715,12 +1722,20 @@ span {
   }
 }
 
-.button__list {
-  margin-left: 8px;
+@media screen and (min-width: 480px) {
+  .button__list {
+    margin: 8px;
+  }
 }
 
 .button__list:first-child {
   margin-left: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .button__list:first-child {
+    margin: 8px;
+  }
 }
 
 .button__link {
@@ -1762,6 +1777,15 @@ span {
   margin: 0;
   margin-right: -30px;
   margin-bottom: -30px;
+}
+
+@media screen and (min-width: 480px) {
+  .projects {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .projects__list {

@@ -1,8 +1,18 @@
 .team-box {
   background-color: #f5f4fa;
   margin: 0 auto;
-  padding-top: 102px;
-  padding-bottom: 48px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .team-box__heading {

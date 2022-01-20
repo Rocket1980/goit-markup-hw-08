@@ -340,6 +340,12 @@ span {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .peculiarity-box__list {
+    width: 270px;
+  }
+}
+
 .peculiarity-box__fon {
   display: -webkit-box;
   display: -webkit-flex;
@@ -354,14 +360,21 @@ span {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f5f4fa;
-  width: 270px;
+  width: 450px;
   height: 120px;
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .peculiarity-box__fon {
-    width: 450px;
+    width: 354px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .peculiarity-box__fon {
+    width: 270px;
     height: 120px;
   }
 }

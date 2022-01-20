@@ -29,18 +29,29 @@
   @media screen and (min-width: 768px) {
     width: 354px;
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 }
 .peculiarity-box__fon {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f5f4fa;
-  width: 270px;
+  width: 450px;
   height: 120px;
+  // width: 270px;
+  // height: 120px;
   margin-bottom: 30px;
 
-  @media screen and (min-width: 480px) {
-    width: 450px;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 120px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
     height: 120px;
   }
 }
@@ -58,11 +69,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-primary);
-
-  // @media screen and (min-width: 480px) {
-  //   display: flex;
-  //   align-items: center;
-  // }
 }
 .peculiarity-box__text {
   margin: 0;

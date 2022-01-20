@@ -297,10 +297,6 @@ span {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    -webkit-flex-basis: -webkit-calc((100% - 4 * 30px) / 4);
-        -ms-flex-preferred-size: calc((100% - 4 * 30px) / 4);
-            flex-basis: calc((100% - 4 * 30px) / 4);
-    margin: 30px;
   }
 }
 
@@ -386,6 +382,13 @@ span {
 .classes-box {
   padding-top: 48px;
   padding-bottom: 84px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .classes-box {
+    display: block;
+  }
 }
 
 .galerie {

@@ -7,11 +7,10 @@
   justify-content: space-between;
   margin: 0;
   flex-direction: column;
- 
-  @media screen and (min-width: 768px){
+
+  @media screen and (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
-    margin-right: ;
   }
 }
 
@@ -29,8 +28,6 @@
 
   @media screen and (min-width: 768px) {
     width: 354px;
-    
-    
   }
 }
 .peculiarity-box__fon {
@@ -46,7 +43,6 @@
     width: 450px;
     height: 120px;
   }
-  
 }
 
 .peculiarity-box__icon {

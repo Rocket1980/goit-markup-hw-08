@@ -1,12 +1,17 @@
 .logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  // padding-top: 24px;
+  // padding-bottom: 24px;
   font-family: raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--text-primary);
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 
 span {

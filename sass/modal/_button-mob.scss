@@ -1,1 +1,19 @@
+.menu-button {
+  display: inline-flexbox;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
 
+.menu-button .icon-menu {
+  display: none;
+}
+
+.menu-button.is-open .icon-menu {
+  display: block;
+}
+
+.menu-button.is-open .icon-close {
+  display: none;
+}

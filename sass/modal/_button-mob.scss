@@ -13,7 +13,8 @@
   cursor: pointer;
 }
 
-.menu-button:focus {
+&:hover,
+&:focus {
   fill: var(--theme-color);
 }
 

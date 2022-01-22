@@ -1453,7 +1453,7 @@ span {
   cursor: pointer;
 }
 
-.menu-button:focus {
+.menu-button:hover {
   fill: var(--theme-color);
 }
 

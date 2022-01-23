@@ -16,6 +16,10 @@
   &:focus {
     fill: var(--theme-color);
   }
+
+  @media screen and (min-width: 767px) {
+    display: none;
+  }
 }
 
 .menu-button .icon-menu {

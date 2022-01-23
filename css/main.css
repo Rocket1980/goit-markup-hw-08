@@ -61,6 +61,7 @@ address {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 10px;
 }
 
 .connection-container {
@@ -722,14 +723,14 @@ span {
 .team-box {
   background-color: #f5f4fa;
   margin: 0 auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
   .team-box {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 

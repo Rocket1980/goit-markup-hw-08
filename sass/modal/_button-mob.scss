@@ -11,11 +11,11 @@
   z-index: 999;
 
   cursor: pointer;
-}
 
-&:hover,
-&:focus {
-  fill: var(--theme-color);
+  &:hover,
+  &:focus {
+    fill: var(--theme-color);
+  }
 }
 
 .menu-button .icon-menu {

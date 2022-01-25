@@ -48,6 +48,10 @@ address {
   }
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2033,7 +2037,7 @@ span {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 480px) {

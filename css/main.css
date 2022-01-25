@@ -495,8 +495,7 @@ span {
 }
 
 .cap {
-  width: 480px;
-  height: 400px;
+  max-width: 480px;
   padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
@@ -524,8 +523,7 @@ span {
 
 @media screen and (min-width: 768px) {
   .cap {
-    width: 768px;
-    height: 400px;
+    max-width: 768px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/herou/img-tab.jpg");
     background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/herou/img-tab.jpg");
     background-image: -o-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/herou/img-tab.jpg");
@@ -544,8 +542,7 @@ span {
 
 @media screen and (min-width: 1200px) {
   .cap {
-    width: 1600px;
-    height: 600px;
+    max-width: 1600px;
     padding: 200px 0 200px 0;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/herou/Imgx.jpg");
     background-image: -webkit-linear-gradient(left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/herou/Imgx.jpg");
@@ -653,8 +650,21 @@ span {
 }
 
 .peculiarity {
-  padding-top: 94px;
-  padding-bottom: 48px;
+  padding-top: 60px;
+  padding-bottom: 66.83px;
+}
+
+@media screen and (min-width: 768px) {
+  .peculiarity {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .peculiarity {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .peculiarity-box {
@@ -706,7 +716,6 @@ span {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -810,8 +819,7 @@ span {
 }
 
 .classes-box {
-  padding-top: 48px;
-  padding-bottom: 84px;
+  padding-bottom: 94px;
   display: none;
 }
 
@@ -897,27 +905,23 @@ span {
 .team-box {
   background-color: #f5f4fa;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
   .team-box {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .team-box {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    max-width: 1600px;
   }
 }
 
 .team-box__heading {
-  margin-top: 0;
-  margin-bottom: 50px;
+  padding-top: 66.09px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.8;
@@ -1276,9 +1280,22 @@ span {
 }
 
 .footer {
+  min-width: 480px;
   background-color: #2f303a;
   padding: 60px 0;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer {
+    max-width: 1600px;
+  }
 }
 
 .footer-address {

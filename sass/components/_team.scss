@@ -1,23 +1,25 @@
 .team-box {
   background-color: #f5f4fa;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  // padding-top: 30px;
+  padding-bottom: 60px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    // padding-top: 30px;
+    padding-bottom: 60px;
   }
 
   @media screen and (min-width: 1200px) {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    // padding-top: 94px;
+    // padding-bottom: 94px;
+    max-width: 1600px;
   }
 }
 
 .team-box__heading {
-  margin-top: 0;
-  margin-bottom: 50px;
+  // margin-top: 0;
+  // margin-bottom: 50px;
+  padding-top: 66.09px;
 
   font-weight: 700;
   font-size: 28px;

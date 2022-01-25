@@ -16,12 +16,20 @@
 
 .footer-address {
   margin-top: 20px;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+  }
 }
 
 .footer-box {
@@ -109,6 +117,11 @@
   text-align: left;
   letter-spacing: 0.03;
   color: #ffffff;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
 }
 
 .footer-liste {
@@ -174,6 +187,11 @@
   // margin-right: 0;
   margin-bottom: 20px;
   // margin-left: 0;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 7px;
+    margin-bottom: 0;
+  }
 }
 
 .mail-input__form {

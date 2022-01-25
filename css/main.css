@@ -1300,12 +1300,24 @@ span {
 
 .footer-address {
   margin-top: 20px;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-address {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-address {
+    margin-top: 0;
+  }
 }
 
 .footer-box {
@@ -1441,6 +1453,13 @@ span {
   color: #ffffff;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-link__heading {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
 .footer-liste {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1533,6 +1552,13 @@ span {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .mail-input__heading {
+    margin-top: 7px;
+    margin-bottom: 0;
+  }
 }
 
 .mail-input__form {
